@@ -1,6 +1,5 @@
-// ScreenContext.tsx
 import React, {createContext, ReactNode, useContext} from 'react';
-import {useWindowDimensions, Platform, Dimensions} from 'react-native';
+import {useWindowDimensions} from 'react-native';
 import {isTablet} from 'react-native-device-info';
 
 export type ScreenContextType = {
